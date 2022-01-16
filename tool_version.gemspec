@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Liberatys"]
   spec.email = ["nick.flueckiger@renuo.ch"]
 
-  spec.summary = "A utility gem to fetch recent versions from your git repos"
+  spec.summary = "A utility gem to fetch the most recent tool versions from your git repoistory."
   spec.homepage = "https://github.com/Liberatys/tool_version"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
