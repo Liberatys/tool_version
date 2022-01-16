@@ -40,6 +40,11 @@ versions = [
 ]
 ```
 
+Please also see the specs for the functionality of the gem:
+
+- [Internal](https://github.com/Liberatys/tool_version/blob/master/spec/tooling/detector_spec.rb)
+- [Interface](https://github.com/Liberatys/tool_version/blob/master/spec/tool_version_spec.rb)
+
 
 ### Options
 
