@@ -1,6 +1,6 @@
 # ToolVersion
 
-A utility gem to fetch the most recent tool version from your git repoistory.
+A utility gem to fetch the most recent tool versions from your git repoistory.
 
 ## Installation
 
@@ -24,19 +24,21 @@ And then execute:
 
 ## Usage
 
-    # Create a client of your choosing -> Currently only github is supported
-    client = Octokit::Client.new([credentials])
+```ruby
+# Create a client of your choosing -> Currently only github is supported
+client = Octokit::Client.new([credentials])
 
-    # Interface for detect_tools => detect_tools(client, repository, schemas, branch: :main, provider: :github)
-    versions = ToolVersion.detect_tools(client, 'username/repository', [:ruby], branch: :master)
+# Interface for detect_tools => detect_tools(client, repository, schemas, branch: :main, provider: :github)
+versions = ToolVersion.detect_tools(client, 'username/repository', [:ruby], branch: :master)
 
-    versions = [
-        ToolVersion::Tool.new(
-            'ruby',
-            '3.0.2',
-            '.ruby-version'
-          )
-    ]
+versions = [
+    ToolVersion::Tool.new(
+        'ruby',
+        '3.0.2',
+        '.ruby-version'
+      )
+]
+```
 
 
 ### Options
