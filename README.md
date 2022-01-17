@@ -1,6 +1,6 @@
 # ToolVersion
 
-A utility gem to fetch the most recent tool versions from your git repoistory.
+A utility gem to fetch the most recent tool versions from your git repository.
 
 ## Installation
 
